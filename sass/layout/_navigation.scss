@@ -1,0 +1,27 @@
+.navbar-brand {
+  img {
+    height: 100%;
+  }
+}
+
+.nav-link.active {
+  color: red;
+}
+
+.logo {
+  width: 60px;
+}
+
+.navbar {
+  &-dark {
+    .navbar-nav {
+      .nav-link {
+        color: $white;
+
+        &.active {
+          color: $ruddy-pink;
+        }
+      }
+    }
+  }
+}

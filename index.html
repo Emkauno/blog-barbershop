@@ -4,18 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <title>Portafolio - Esteban Soto</title>
+  <title>Blog - Barbershop </title>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <p class="emkauno">EMKAUNO</p>
+        <img src="assets/img/logo.png" alt="" class="logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,17 +21,86 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active text-white" href="#home">Inicio <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link text-white" href="#recetas">Sobre mí</a>
-          <a class="nav-item nav-link text-white" href="#skillset">Skillset</a>
-          <a class="nav-item nav-link text-white" href="#trabajos">Trabajos</a>
-          <a class="nav-item nav-link text-white" href="#contacto">Contacto</a>
+          <a class="nav-item nav-link active" href="#home">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#recetas">Nosotros</a>
+          <a class="nav-item nav-link" href="#skillset">Trabajos</a>
+          <a class="nav-item nav-link" href="#trabajos">Blog</a>
+          <a class="nav-item nav-link" href="#contacto">Horas</a>
+          <a class="nav-item nav-link" href="#contacto">Contacto</a>
         </div>
       </div>
     </div>
   </nav>
+  <header id="header" class="row">
+    <div class="col-sm header">
+      <h1 class="header__text">
+        5 formas de cuidar tu corte de cabello
+      </h1>
+    </div>
+  </header>
+  <section id="blog-post" class="row">
+    <div class="blog-post__item container">
+      <div class="blog-post__date">20 de julio 2018</div>
+      <p class="blog-post__post">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi delectus libero soluta et, laboriosam, ipsum
+        obcaecati porro dignissimos in odit quo distinctio adipisci suscipit. Ipsum eum ut iure alias id architecto
+        cupiditate nihil fuga debitis odio doloribus hic, perferendis possimus, rem sit praesentium ab neque voluptate
+        expedita tempore! Consequuntur, odio.
+      </p>
+      <p class="blog-post__post">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi delectus libero soluta et, laboriosam, ipsum
+        obcaecati porro dignissimos in odit quo distinctio adipisci suscipit. Ipsum eum ut iure alias id architecto
+        cupiditate nihil fuga debitis odio doloribus hic, perferendis possimus, rem sit praesentium ab neque voluptate
+        expedita tempore! Consequuntur, odio.
 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dicta ducimus eum modi alias tenetur!
+      </p>
+      <p class="blog-post__post">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi delectus libero soluta et, laboriosam, ipsum
+        obcaecati porro dignissimos in odit quo distinctio adipisci suscipit. Ipsum eum ut iure alias id architecto
+        cupiditate nihil.
+      </p>
+      <p class="blog-post__post">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi delectus libero soluta et, laboriosam, ipsum
+        obcaecati porro dignissimos in odit <span>dignissimos in odit quo</span> quo distinctio adipisci suscipit. Ipsum
+        eum ut iure alias id architecto
+        cupiditate nihil fuga debitis odio doloribus hic, perferendis possimus, rem sit praesentium ab neque voluptate
+        expedita tempore! Consequuntur, odio.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa a inventore unde rem soluta iste harum minima
+        expedita minus vitae?
+      </p>
+      <div class="blog-post__buttons row">
+        <button class="boton boton--small">
+          Compartir
+        </button>
+        <button class="boton boton--medium">
+          Comentar en Twitter
+        </button>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <div class="row blog-post__author container">
+      <img src="assets/img/naomi-thai.png" alt="" class="blog-post__photo">
+      <div class="blog-post__author--info">
+        <h1>Naomi Thai</h1>
+        <h2>@Naothai</h2>
+        <a href="#">depelos.com</a>
+      </div>
+      <div class="blog-post__author--bio">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam exercitationem dolor blanditiis sequi
+          magni cumque tenetur inventore quos nemo sint ullam dignissimos in mollitia harum consectetur ipsam eveniet,
+          ratione molestias.</p>
+      </div>
 
+    </div>
+  </div>
+  <section id="paginator">
+    <div class="row bg-grey"></div>
+  </section>
+  <footer id="footer" class="footer">
+    <img src="assets/img/logo.png" alt="" class="footer__image">
+  </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>

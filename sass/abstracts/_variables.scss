@@ -1,0 +1,40 @@
+//tipografía
+
+$roboto: "Roboto", sans-serif;
+$roboto-light: 300;
+$roboto-regular: 400;
+
+$playfair: "Playfair Display", serif;
+$playfair-bold: 400;
+$playfair-black: 900;
+$playfair-italic: italic;
+
+$fs-xx-large: 70px;
+$fs-x-large: 30px;
+$fs-large: 18px;
+$fs-medium: 16px;
+$fs-small: 12px;
+
+$primary-font: $roboto;
+$primary-font-light: $roboto-light;
+$primary-font-regular: $roboto-regular;
+$secondary-font: $playfair;
+$secondary-font-bold: $playfair-bold;
+$secondary-font-black: $playfair-black;
+$secondary-font-italic: $playfair-italic;
+
+//colores
+
+$white: #fff;
+$platinum: #e6e7e7;
+$light-gray: #d1d1d1;
+$fuzzy-wuzzy: #e56353;
+$ruddy-pink: #d76c69;
+$spanish-pink: #ecbcba;
+$eerie-black: #121619;
+$raisin-black: #222323;
+$nickel: #6c6e70;
+
+//breakpoints
+
+$min-laptop: 992px;

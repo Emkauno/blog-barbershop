@@ -1,0 +1,27 @@
+.boton {
+  background-color: $nickel;
+  color: $white;
+  border-radius: 25px;
+  font-size: $fs-small;
+  border: none;
+  transition: color 0.3s ease, background 0.3s ease;
+
+  &:hover {
+    background-color: $light-gray;
+    color: $nickel;
+  }
+
+  &--medium {
+    padding: 10px 15px;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  &--small {
+    padding: 9px 15px;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
