@@ -1,0 +1,31 @@
+.header {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__text {
+    color: $white;
+    font-size: $fs-xx-large;
+    font-family: $playfair;
+    font-style: italic;
+    width: 70%;
+    text-shadow: 1px 2px $eerie-black;
+    text-align: center;
+
+    @include laptop-view {
+      font-size: $fs-x-large;
+      width: 50%;
+    }
+  }
+}
+
+#header {
+  height: 70vh;
+  width: 100%;
+  background: url(../img/post-image.jpg);
+  margin-bottom: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
