@@ -7168,7 +7168,8 @@ a.text-dark:hover, a.text-dark:focus {
 html {
   bottom: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 .row {
   margin: 0; }
@@ -7197,6 +7198,99 @@ html {
     padding: 9px 15px; }
     .boton--small:not(:last-child) {
       margin-right: 10px; }
+
+.paginator {
+  height: 150px;
+  width: 100%;
+  background: #d1d1d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0; }
+  .paginator .container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .paginator__container {
+    max-width: 40%;
+    width: 100%;
+    height: 60px;
+    background: #e6e7e7;
+    border: 1px solid #b2b5b5;
+    border-radius: 30px;
+    box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px; }
+    @media (max-width: 992px) {
+      .paginator__container {
+        max-width: 100%; } }
+  .paginator__link--prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #121619;
+    text-decoration: none;
+    transform: scale(1);
+    transition: all 0.3s ease;
+    cursor: pointer; }
+    .paginator__link--prev:hover {
+      transform: scale(1.05); }
+  .paginator__link--next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #121619;
+    text-decoration: none;
+    transform: scale(1);
+    transition: all 0.3s ease;
+    cursor: pointer; }
+    .paginator__link--next:hover {
+      transform: scale(1.05); }
+  .paginator__link--pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%; }
+    .paginator__link--pages-1 {
+      height: 100%;
+      width: 33.3%;
+      border-left: 1px solid #6c6e70;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer; }
+      .paginator__link--pages-1.active {
+        background: #121619;
+        color: #fff; }
+    .paginator__link--pages-2 {
+      height: 100%;
+      width: 33.3%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer; }
+      .paginator__link--pages-2.active {
+        background: #121619;
+        color: #fff; }
+    .paginator__link--pages-3 {
+      height: 100%;
+      width: 33.3%;
+      border-right: 1px solid #6c6e70;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer; }
+      .paginator__link--pages-3.active {
+        background: #121619;
+        color: #fff; }
 
 .footer {
   display: flex;
